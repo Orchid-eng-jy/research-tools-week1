@@ -1,0 +1,66 @@
+{
+  "source": "input.xlsx",
+  "sheet": "Sheet1",
+  "statistics": {
+    "row_count": 3,
+    "column_count": 4,
+    "empty_cell_count": 0,
+    "non_empty_cell_count": 12,
+    "columns": {
+      "学号": {
+        "non_empty_count": 3,
+        "empty_count": 0,
+        "type_counts": {
+          "number": 3
+        },
+        "numeric": {
+          "min": 1234567,
+          "max": 3456789,
+          "sum": 7037034,
+          "average": 2345678.0
+        }
+      },
+      "姓名": {
+        "non_empty_count": 3,
+        "empty_count": 0,
+        "type_counts": {
+          "string": 3
+        }
+      },
+      "出生日期": {
+        "non_empty_count": 3,
+        "empty_count": 0,
+        "type_counts": {
+          "date": 3
+        }
+      },
+      "性别": {
+        "non_empty_count": 3,
+        "empty_count": 0,
+        "type_counts": {
+          "string": 3
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "学号": 1234567,
+      "姓名": "张三",
+      "出生日期": "2005-01-01T00:00:00",
+      "性别": "男"
+    },
+    {
+      "学号": 2345678,
+      "姓名": "李四",
+      "出生日期": "2006-01-01T00:00:00",
+      "性别": "女"
+    },
+    {
+      "学号": 3456789,
+      "姓名": "王五",
+      "出生日期": "2007-01-01T00:00:00",
+      "性别": "男"
+    }
+  ]
+}
